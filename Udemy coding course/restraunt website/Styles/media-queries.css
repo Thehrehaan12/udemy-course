@@ -1,0 +1,29 @@
+/* @media (max-width: 615px) {
+    .navigation-wrapper {
+        flex-direction: column;
+      
+    }
+
+    .navigation-wrapper > .left-column {
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .navigation-wrapper > .center-column {
+        order: 1;
+        width: 100%;
+    }
+
+    .navigation-wrapper > .right-column {
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .links-wrapper {
+        flex-direction: column;
+        margin-bottom: 20px;
+} */
+
+@media (max-width: 615px)

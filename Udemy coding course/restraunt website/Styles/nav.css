@@ -1,0 +1,180 @@
+
+/* common nav styles */
+.navigation-wrapper {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;  
+}
+
+/* left stles */
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper1 > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .icon {
+    margin-right: 15px;
+}
+
+.navigation-wrapper > .left-column > .icon i {
+    font-size: 2em;
+}
+
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .hours {
+    font-family: 'Roboto', sans-serif ;
+    color: #85858585;
+    font-size: 0.8em;
+}
+
+.navigation-wrapper > .left-column > .contact-hours-wrapper {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-gap: 20px;
+}
+
+.navigation-wrapper > .left-column > .contact-hours-wrapper a {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    color: red;
+ }
+
+.contact-hours-wrapper > .left-column > .phone {
+    font-family: 'Roboto',sans-serif;
+ }
+/* center column styles */
+.links-wrapper > .nav-link a {
+    color: white;
+    font-family: 'Roboto',sans-serif;
+}
+
+.links-wrapper2 > .nav-link a {
+    color: white;
+    font-family: 'Roboto',sans-serif;
+}
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 48;
+    width: 500px;
+}
+
+.navigation-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .center-column > .banner-image img{
+    height: 100%;
+   
+}
+
+.center-column > .banner-image1 img{
+    width: 216px;
+    height: 100%;
+   
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* maybe this if somtin is wrong */
+    padding-top: 60px;
+}
+
+.links-wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* maybe this if somtin is wrong */
+}
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.links-wrapper2 > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.links-wrapper > .nav-link a {
+    font-family: 'Yusei Magic', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper2 > .nav-link a {
+    font-family: 'Yusei Magic', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color : #cea135;
+    letter-spacing: 2px;
+}
+
+.links-wrapper2 > .nav-link a:hover {
+    color : #cea135;
+    letter-spacing: 2px;
+}
+
+/* right column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper {
+    font-family: 'Yusei Magic', sans-serif;
+    text-align: right;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a {
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5;
+}
+
+.navigation-wrapper > .right-column > .contact-icon {
+    margin-left: 15px;
+    font-size: 2em;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a:hover {
+    color: #cea135;
+    transition: 0.5;
+}
+
+.navigation-wrapper > .right-column > .contact-icon {
+    color: #cbcbcb;
+    
+}
+
+.navigation-wrapper > .right-column > .contact-icon a:hover {
+    color: #cea135;
+    transition: 0.5;
+}
+
